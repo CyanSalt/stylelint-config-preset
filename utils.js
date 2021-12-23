@@ -22,10 +22,10 @@ function getAllDependencies() {
     const pkg = require(nearestPackageJson)
     let deps = []
     if (pkg.dependencies) {
-      deps = deps.concat(Object.keys(pkg.dependencies))
+      deps = deps.concat(Object.keys(pkg.dependencies).map(name => ({ name, version: pkg.dependencies[name] })))
     }
     if (pkg.devDependencies) {
-      deps = deps.concat(Object.keys(pkg.devDependencies))
+      deps = deps.concat(Object.keys(pkg.devDependencies).map(name => ({ name, version: pkg.devDependencies[name] })))
     }
     cachedDeps = deps
     return cachedDeps
@@ -38,7 +38,8 @@ function getAllDependencies() {
 
 function getInstalledPackageVersion(moduleId) {
   const dependencies = getAllDependencies()
-  if (!dependencies.includes(moduleId)) {
+  const dependency = dependencies.find(dep => dep.name === moduleId)
+  if (!dependency) {
     return null
   }
   let packageJson
@@ -46,7 +47,7 @@ function getInstalledPackageVersion(moduleId) {
     packageJson = require(`${moduleId}/package.json`)
     // eslint-disable-next-line unicorn/prefer-optional-catch-binding
   } catch (err) {
-    return null
+    return semver.minVersion(dependency.version).version
   }
   return packageJson.version
 }
