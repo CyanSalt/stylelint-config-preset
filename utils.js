@@ -2,18 +2,19 @@ const { cosmiconfigSync } = require('cosmiconfig')
 const findUp = require('find-up')
 const semver = require('semver')
 
+function getNearestPackageJson() {
+  const nearestConfig = cosmiconfigSync('stylelint').search(process.cwd())
+  if (!nearestConfig) return undefined
+  return findUp.sync('package.json', { cwd: nearestConfig.filepath })
+}
+
 let cachedDeps
 
 function getAllDependencies() {
   if (cachedDeps) {
     return cachedDeps
   }
-  const nearestConfig = cosmiconfigSync('stylelint').search(process.cwd())
-  if (!nearestConfig) {
-    cachedDeps = []
-    return cachedDeps
-  }
-  const nearestPackageJson = findUp.sync('package.json', { cwd: nearestConfig.filepath })
+  const nearestPackageJson = getNearestPackageJson()
   if (!nearestPackageJson) {
     cachedDeps = []
     return cachedDeps
@@ -64,6 +65,7 @@ function hasInstalledPackage(moduleId, version) {
 }
 
 module.exports = {
+  getNearestPackageJson,
   getInstalledPackageVersion,
   hasInstalledPackage,
 }
