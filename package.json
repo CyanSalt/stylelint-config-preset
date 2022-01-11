@@ -14,6 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/CyanSalt/stylelint-config-preset.git"
   },
+  "bugs": {
+    "url": "https://github.com/CyanSalt/stylelint-config-preset/issues"
+  },
+  "homepage": "https://github.com/CyanSalt/stylelint-config-preset#readme",
   "keywords": [
     "stylelint",
     "stylelintconfig"
