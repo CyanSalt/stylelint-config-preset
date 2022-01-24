@@ -1,6 +1,6 @@
 {
   "name": "@cyansalt/stylelint-config-preset",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My Stylelint configuration preset",
   "main": "index.js",
   "publishConfig": {
