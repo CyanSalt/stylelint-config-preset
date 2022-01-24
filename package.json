@@ -25,7 +25,7 @@
   "author": "CyanSalt",
   "license": "ISC",
   "dependencies": {
-    "@cyansalt/stylelint-config": "^3.0.0",
+    "@cyansalt/stylelint-config": "^3.0.1",
     "cosmiconfig": "^7.0.1",
     "find-up": "^5.0.0",
     "postcss": "^8.4.5",
