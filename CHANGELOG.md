@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.1.2...v1.2.0) (2022-04-08)
+
+
+### Features
+
+* bump deps ([32a84b2](https://github.com/CyanSalt/stylelint-config-preset/commit/32a84b21272f06702c8baabd92c5e445bb5b0072))
+
 ### [1.1.2](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.1.1...v1.1.2) (2022-03-01)
 
 
