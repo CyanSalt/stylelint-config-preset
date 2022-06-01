@@ -1,5 +1,12 @@
 
 
+### [1.3.1](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.3.0...v1.3.1) (2022-06-01)
+
+
+### Bug Fixes
+
+* update stylelint ([ee0fd18](https://github.com/CyanSalt/stylelint-config-preset/commit/ee0fd183122c5e2b846809c9f7c32a0f360036f7))
+
 ## [1.3.0](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.2.0...v1.3.0) (2022-05-07)
 
 
