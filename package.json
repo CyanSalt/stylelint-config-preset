@@ -25,15 +25,15 @@
   "author": "CyanSalt",
   "license": "ISC",
   "dependencies": {
-    "@cyansalt/stylelint-config": "^3.3.0",
+    "@cyansalt/stylelint-config": "^3.3.1",
     "cosmiconfig": "^7.0.1",
     "find-up": "^5.0.0",
     "postcss": "^8.4.14",
     "postcss-html": "^1.4.1",
     "postcss-scss": "^4.0.4",
     "semver": "^7.3.5",
-    "stylelint": "^14.16.0",
-    "stylelint-order": "^5.0.0",
+    "stylelint": "^14.16.1",
+    "stylelint-order": "^6.0.1",
     "stylelint-plugin-aurora": "^1.0.3",
     "stylelint-scss": "^4.3.0"
   },
