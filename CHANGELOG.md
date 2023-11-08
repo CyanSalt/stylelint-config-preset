@@ -1,5 +1,12 @@
 
 
+### [1.4.2](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.4.1...v1.4.2) (2023-11-08)
+
+
+### Bug Fixes
+
+* update plugins ([bcfe28b](https://github.com/CyanSalt/stylelint-config-preset/commit/bcfe28b3b1e9362fe161e3aa6ee6d469eeb62881))
+
 ### [1.4.1](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.4.0...v1.4.1) (2023-01-31)
 
 
