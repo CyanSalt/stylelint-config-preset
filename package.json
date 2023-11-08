@@ -25,17 +25,18 @@
   "author": "CyanSalt",
   "license": "ISC",
   "dependencies": {
-    "@cyansalt/stylelint-config": "^3.3.1",
+    "@cyansalt/stylelint-config": "^3.5.0",
     "cosmiconfig": "^7.0.1",
     "find-up": "^5.0.0",
     "postcss": "^8.4.14",
     "postcss-html": "^1.4.1",
     "postcss-scss": "^4.0.4",
     "semver": "^7.3.5",
-    "stylelint": "^14.16.1",
-    "stylelint-order": "^6.0.1",
+    "stylelint": "^15.11.0",
+    "stylelint-order": "^6.0.3",
     "stylelint-plugin-aurora": "^1.0.3",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-scss": "^5.3.1",
+    "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
     "@cyansalt/eslint-config-preset": "^1.10.0",
