@@ -1,5 +1,12 @@
 
 
+## [1.4.4](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.4.3...v1.4.4) (2023-11-10)
+
+
+### Bug Fixes
+
+* peer deps ([7d8373d](https://github.com/CyanSalt/stylelint-config-preset/commit/7d8373d780de78f18458d9dfdba082a6b7879bc5))
+
 ### [1.4.3](https://github.com/CyanSalt/stylelint-config-preset/compare/v1.4.2...v1.4.3) (2023-11-08)
 
 
