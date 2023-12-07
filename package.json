@@ -39,8 +39,8 @@
     "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
-    "@cyansalt/eslint-config-preset": "^1.16.3",
-    "@release-it/conventional-changelog": "^7.0.2",
-    "release-it": "^16.2.1"
+    "@cyansalt/eslint-config-preset": "^1.17.0",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "release-it": "^17.0.0"
   }
 }
