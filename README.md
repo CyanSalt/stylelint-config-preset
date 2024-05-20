@@ -1,5 +1,8 @@
 # @cyansalt/stylelint-config-preset
 
+> [!WARNING]
+> This package has been deprecated. Use [@cyansalt/stylelint-config](https://www.npmjs.com/package/@cyansalt/stylelint-config) directly instead.
+
 [![npm](https://img.shields.io/npm/v/@cyansalt/stylelint-config-preset.svg)](https://www.npmjs.com/package/@cyansalt/stylelint-config-preset)
 
 My Stylelint configuration preset.
